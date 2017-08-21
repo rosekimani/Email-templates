@@ -1,0 +1,78 @@
+body{
+	background-color: #212445;
+}
+
+#email-background{
+	width: 1000px;
+	height: auto;
+	margin: 0 auto;
+	background-color: #747477;
+	border-radius: 10px;
+}
+
+button{
+	background-color: #f7e411;
+	width: 100px;
+	height: 50px;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+	border: none;
+	margin-top: 50px;
+}
+
+.email-container{
+	width: 600px;
+	height: auto;
+	background-color: #ffffff;
+	margin-left: 200px;
+	border-radius: 10px;
+}
+.heading-1{
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+h1{
+	text-align: center;
+}
+
+.paragraph-container{
+	padding-bottom: 50px;
+	text-align: center;
+}
+strong{
+	color: #e1673c;
+}
+
+.brand-icons{
+	margin-left: 500px;
+	margin-top: 50px;
+}
+.footer-left{
+	text-align: left;
+	margin-left: 200px;	
+}
+
+.footer-left p{
+	padding: 0;
+	margin: 0;	
+}
+
+.footer-right p{
+	padding: 0;
+	margin: 0;	
+}
+
+.footer-right{
+	margin-left: 800px;	
+}
+
+
+@media only screen and (max-width: 500px) {
+    #email-background {
+        background-color: lightblue;
+        display: block;
+    }
+}
+
+
