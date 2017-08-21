@@ -71,7 +71,7 @@ strong{
 @media only screen and (max-width: 500px) {
     #email-background {
         background-color: lightblue;
-        display: block;
+        
     }
 }
 
